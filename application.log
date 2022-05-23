@@ -1,0 +1,4 @@
+2022-05-23 23:13:49.971  INFO 34856 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on LAPTOP-JOB4074E with PID 34856 (C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EmployeePayrollApp\target\classes started by 91824 in C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EmployeePayrollApp)
+2022-05-23 23:13:49.971 DEBUG 34856 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-23 23:13:49.973  INFO 34856 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-05-23 23:13:50.660  INFO 34856 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 0.764 seconds (JVM running for 41031.368)
