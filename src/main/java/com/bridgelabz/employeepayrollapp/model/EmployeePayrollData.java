@@ -1,10 +1,20 @@
 package com.bridgelabz.employeepayrollapp.model;
-
 import java.time.LocalDate;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 import com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO;
 
+
+@Entity
+
 public class EmployeePayrollData {
+	
+	@Id
+	@GeneratedValue
 	int id;
     String fullName;
     String profilePic;
@@ -14,23 +24,6 @@ public class EmployeePayrollData {
     int mobileNumber;
     LocalDate startDate;
     String notes;
-
-    public EmployeePayrollData(int id, EmployeePayrollData employee) {
-        this.id = id;
-        this.fullName = employee.fullName;
-        this.salary = employee.salary;
-        this.profilePic = employee.profilePic;
-        this.gender = employee.gender;
-        this.department = employee.department;
-        this.mobileNumber = employee.mobileNumber;
-        this.notes = employee.notes;
-        
-        this.startDate = employee.startDate;
-    }
-
-    public EmployeePayrollData(int id) {
-        this.id = id;
-    }
 
     public EmployeePayrollData(int id, EmployeePayrollDTO employee) {
         this.id = id;
@@ -45,6 +38,8 @@ public class EmployeePayrollData {
 //        this.startDate = employee.startDate;
     }
 
+    
+    
 
     public int getMobileNumber() {
         return mobileNumber;
