@@ -1,6 +1,8 @@
 package com.bridgelabz.employeepayrollapp.controller;
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -42,11 +44,11 @@ public class EmployeePayrollController {
 	    return new ResponseEntity<ResponseDTO>(responseDTO,HttpStatus.OK);
 	}
 	@PostMapping("/create")
-    public ResponseEntity<ResponseDTO> addEmployee(@RequestBody EmployeePayrollDTO employeeDTO){
+    public ResponseEntity<ResponseDTO> addEmployee(@Valid @RequestBody EmployeePayrollDTO employeeDTO){
 		EmployeePayrollData newEmployee = iEmployeeInterface.addEmployee(employeeDTO);
         //iEmployeeInterface.addEmployee(newEmployee);
-        ResponseDTO responseDTO = new ResponseDTO("Get Call Success", newEmployee);
-        return new ResponseEntity<>(responseDTO,HttpStatus.CREATED);
+        ResponseDTO responseDTO = new ResponseDTO("created employee payroll successfully", newEmployee);
+        return new ResponseEntity<ResponseDTO>(responseDTO,HttpStatus.OK);
     }
 	
 	@GetMapping("/show")
