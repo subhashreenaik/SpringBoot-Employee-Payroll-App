@@ -40,7 +40,7 @@ public @Data class EmployeePayrollData {
     String gender;
     
     @ElementCollection
-    @CollectionTable(name = "department",joinColumns = @JoinColumn(name="id"))
+    @CollectionTable(name = "department",joinColumns = @JoinColumn(name="depart_id"))
     @Column(name = "department")
     private List<String> department;
     

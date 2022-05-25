@@ -13,6 +13,7 @@ public interface IEmployeeInterface {
     EmployeePayrollData getEmployeePayrollDataById(int id);
     List <EmployeePayrollData> getEmployeePayrollData();
     void deleteEmployeePayrollData(int employeeId);
+    List<EmployeePayrollData> getEmployeesPayrollDataByDepartment(String department);
 	
     
 

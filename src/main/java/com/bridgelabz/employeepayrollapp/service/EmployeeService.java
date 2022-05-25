@@ -61,6 +61,11 @@ public class EmployeeService implements IEmployeeInterface{
         repo.delete(empData);
     }
 
+	@Override
+	public List<EmployeePayrollData> getEmployeesPayrollDataByDepartment(String department) {
+		return repo.findEmployeesByDepartment(department);
+	}
+
 	
 
     
