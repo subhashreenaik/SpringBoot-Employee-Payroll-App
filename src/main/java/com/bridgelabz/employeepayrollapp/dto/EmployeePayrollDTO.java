@@ -40,7 +40,7 @@ public String gender;
 
 @NotEmpty(message = "Please Enter the department at least 1")
 @ElementCollection
-@CollectionTable(name = "department",joinColumns =@JoinColumn(name="id"))
+@CollectionTable(name = "department",joinColumns =@JoinColumn(name="depart_id"))
 public List<String> department;
 
 @NotNull(message = "Mobile number can not be Null")
