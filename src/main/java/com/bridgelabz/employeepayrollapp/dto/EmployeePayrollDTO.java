@@ -1,5 +1,6 @@
 package com.bridgelabz.employeepayrollapp.dto;
 
+import java.sql.Date;
 import java.time.LocalDate;
 import java.util.List;
 
@@ -43,12 +44,12 @@ public String gender;
 public List<String> department;
 
 @NotNull(message = "Mobile number can not be Null")
-public String mobileNumber;
+public int mobileNumber;
 
 @NotNull(message = "Date Should not be null...")
 @JsonFormat(pattern="dd MM yyyy")
 @PastOrPresent(message = "Enter valid date...")
-public LocalDate startDate;
+public Date startDate;
 
 @NotEmpty(message = "Notes can not be Empty")
 public String notes;

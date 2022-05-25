@@ -51,16 +51,18 @@ public class EmployeePayrollController {
         return new ResponseEntity<ResponseDTO>(responseDTO,HttpStatus.OK);
     }
 	
-	@GetMapping("/show")
-    public ResponseEntity<ResponseDTO> searchAll(){
-        ResponseDTO responseDTO = new ResponseDTO("Get Call Success", iEmployeeInterface.getEmployeePayrollData());
-        return new ResponseEntity<>(responseDTO,HttpStatus.OK);
-    }
+	
 	@PutMapping("/edit/{id}")
     public ResponseEntity<ResponseDTO> editById(@PathVariable int id,@RequestBody EmployeePayrollDTO employeeDTO){
         ResponseDTO responseDTO = new ResponseDTO("Get Call Success", iEmployeeInterface.editById(id,employeeDTO));
         return new ResponseEntity<>(responseDTO,HttpStatus.OK);
     }
+	@DeleteMapping("/delete/{employeeId}")
+	public ResponseEntity<ResponseDTO> deleteEmployeePayrollData(@PathVariable("employeeId") int employeeId){
+		iEmployeeInterface.deleteEmployeePayrollData(employeeId);
+	    ResponseDTO responseDTO = new ResponseDTO("Delete Call Success for id: ", "employeeId "+employeeId);
+	    return new ResponseEntity<ResponseDTO>(responseDTO,HttpStatus.OK);
+	}
 	
 	
 
