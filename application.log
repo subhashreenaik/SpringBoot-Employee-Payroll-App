@@ -2,3 +2,56 @@
 2022-05-25 10:41:52.322  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on LAPTOP-JOB4074E with PID 47196 (C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EmployeePayrollApp\target\classes started by root in C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EmployeePayrollApp)
 2022-05-25 10:41:52.324 DEBUG 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
 2022-05-25 10:41:52.324  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-05-25 10:41:54.465  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 2.64 seconds (JVM running for 3.985)
+2022-05-25 10:41:54.469  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : logging is started
+2022-05-25 10:41:54.470  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee payroll is started in dev environment
+2022-05-25 10:41:54.472  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee payroll DB user is root 
+2022-05-25 11:14:30.062  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on LAPTOP-JOB4074E with PID 47196 (C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EmployeePayrollApp\target\classes started by root in C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EmployeePayrollApp)
+2022-05-25 11:14:30.062 DEBUG 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-25 11:14:30.063  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-05-25 11:14:30.560  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 0.543 seconds (JVM running for 1960.081)
+2022-05-25 11:14:30.563  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : logging is started
+2022-05-25 11:14:30.563  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee payroll is started in dev environment
+2022-05-25 11:14:30.563  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee payroll DB user is root 
+2022-05-25 11:15:19.218  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on LAPTOP-JOB4074E with PID 47196 (C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EmployeePayrollApp\target\classes started by root in C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EmployeePayrollApp)
+2022-05-25 11:15:19.218 DEBUG 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-25 11:15:19.219  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-05-25 11:15:19.611  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 0.429 seconds (JVM running for 2009.132)
+2022-05-25 11:15:19.614  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : logging is started
+2022-05-25 11:15:19.614  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee payroll is started in dev environment
+2022-05-25 11:15:19.614  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee payroll DB user is root 
+2022-05-25 11:16:22.612  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on LAPTOP-JOB4074E with PID 47196 (C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EmployeePayrollApp\target\classes started by root in C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EmployeePayrollApp)
+2022-05-25 11:16:22.612 DEBUG 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-25 11:16:22.612  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-05-25 11:16:22.972  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 0.389 seconds (JVM running for 2072.493)
+2022-05-25 11:16:22.975  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : logging is started
+2022-05-25 11:16:22.976  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee payroll is started in dev environment
+2022-05-25 11:16:22.976  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee payroll DB user is root 
+2022-05-25 13:24:55.125  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on LAPTOP-JOB4074E with PID 47196 (C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EmployeePayrollApp\target\classes started by root in C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EmployeePayrollApp)
+2022-05-25 13:24:55.126 DEBUG 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-25 13:24:55.126  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-05-25 13:24:55.606  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 0.522 seconds (JVM running for 9785.133)
+2022-05-25 13:24:55.609  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : logging is started
+2022-05-25 13:24:55.609  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee payroll is started in dev environment
+2022-05-25 13:24:55.609  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee payroll DB user is root 
+2022-05-25 13:27:22.045  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on LAPTOP-JOB4074E with PID 47196 (C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EmployeePayrollApp\target\classes started by root in C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EmployeePayrollApp)
+2022-05-25 13:27:22.046 DEBUG 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-25 13:27:22.046  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-05-25 13:27:22.471  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 0.469 seconds (JVM running for 9931.999)
+2022-05-25 13:27:22.474  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : logging is started
+2022-05-25 13:27:22.475  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee payroll is started in dev environment
+2022-05-25 13:27:22.475  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee payroll DB user is root 
+2022-05-25 13:31:27.596  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on LAPTOP-JOB4074E with PID 47196 (C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EmployeePayrollApp\target\classes started by root in C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EmployeePayrollApp)
+2022-05-25 13:31:27.596 DEBUG 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-25 13:31:27.597  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-05-25 13:31:27.977  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 0.429 seconds (JVM running for 10177.504)
+2022-05-25 13:31:27.979  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : logging is started
+2022-05-25 13:31:27.980  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee payroll is started in dev environment
+2022-05-25 13:31:27.980  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee payroll DB user is root 
+2022-05-25 13:31:56.291  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on LAPTOP-JOB4074E with PID 47196 (C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EmployeePayrollApp\target\classes started by root in C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EmployeePayrollApp)
+2022-05-25 13:31:56.291 DEBUG 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-25 13:31:56.291  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-05-25 13:31:56.697  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 0.46 seconds (JVM running for 10206.224)
+2022-05-25 13:31:56.699  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : logging is started
+2022-05-25 13:31:56.699  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee payroll is started in dev environment
+2022-05-25 13:31:56.699  INFO 47196 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee payroll DB user is root 
